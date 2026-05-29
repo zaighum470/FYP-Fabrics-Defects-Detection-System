@@ -1,0 +1,904 @@
+/usr/bin/bash: line 1: backendmy_envScriptspython.exe: command not found
+INFO:     Will watch for changes in these directories: ['C:\\Users\\HP\\Desktop\\FYP Final\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6316] using WatchFiles
+INFO:     Started server process [8420]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:50258 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56161 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56161 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "OPTIONS /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "OPTIONS /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "OPTIONS /api/live/start?source=esp32&model=medium HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "POST /api/live/start?source=esp32&model=medium HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "OPTIONS /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "OPTIONS /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "OPTIONS /api/live/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "POST /api/live/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56161 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "OPTIONS /api/live/start?source=esp32&model=nano HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "POST /api/live/start?source=esp32&model=nano HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64212 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "POST /api/live/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63968 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "POST /api/live/start?source=esp32&model=medium HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56097 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "POST /api/live/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49672 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "POST /api/live/start?source=esp32&model=nano HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/recent-defects?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59791 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61054 - "GET /api/live/frame HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "POST /api/live/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57556 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54423 - "OPTIONS /api/images/detect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54423 - "POST /api/images/detect HTTP/1.1" 400 Bad Request
+
+0: 544x640 2 stains, 1566.0ms
+Speed: 58.6ms preprocess, 1566.0ms inference, 1.7ms postprocess per image at shape (1, 3, 544, 640)
+DEBUG: Saving 2 defects for user_id: 15
+INFO:     127.0.0.1:61391 - "POST /api/images/detect HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 2125, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\fastapi\applications.py", line 1163, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\middleware\cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\middleware\cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\fastapi\routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\FYP Final\backend\app\routers\images.py", line 106, in detect_defects
+    db.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\session.py", line 1311, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\session.py", line 1286, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\session.py", line 4331, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\session.py", line 4466, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\session.py", line 4427, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1143, in _emit_insert_statements
+    result = connection.execute(
+        statement, multiparams, execution_options=execution_options
+    )
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 1844, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 2133, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e,
+        ^^
+    ...<4 lines>...
+        is_sub_exec=True,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\base.py", line 2125, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\FYP Final\my_env\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO defects (user_id, defect_type, confidence, bbox_x1, bbox_y1, bbox_x2, bbox_y2, image_path, source) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, detected_at]
+[parameters: (15, 'stain', 0.84, 329, 291, 650, 615, 'C:\\Users\\HP\\Desktop\\FYP Final\\backend\\uploads\\3f344629-8f29-49a8-b2af-f3031b840232.png', 'image_upload')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     127.0.0.1:58414 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57705 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57705 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58414 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56176 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56176 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64583 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52336 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52336 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64583 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64583 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52336 - "GET /aWARNING:  WatchFiles detected changes in 'app\database.py'. Reloading...
+ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62904 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64312 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64312 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63936 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60628 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60628 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63936 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63896 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61135 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61135 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63896 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57632 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57632 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57632 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54623 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60999 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54253 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54253 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:54253 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50742 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50742 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50742 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50728 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50728 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64107 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64107 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50330 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54405 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     Will watch for changes in these directories: ['C:\\Users\\HP\\Desktop\\FYP Final\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9460] using WatchFiles
+INFO:     Started server process [5440]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55394 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53436 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53436 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55394 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56398 - "OPTIONS /api/images/detect HTTP/1.1" 200 OK
+
+0: 640x640 1 knot, 1 line, 1496.5ms
+Speed: 18.2ms preprocess, 1496.5ms inference, 30.7ms postprocess per image at shape (1, 3, 640, 640)
+DEBUG: Saving 2 defects for user_id: 21
+INFO:     127.0.0.1:56398 - "POST /api/images/detect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57324 - "GET /uploads/result_f1140e05-744a-432a-9332-5fef69c0c51d.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52654 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52654 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54548 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54548 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51281 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57218 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57218 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57218 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50357 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50357 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50357 - "OPTIONS /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50357 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52536 - "OPTIONS /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52536 - "OPTIONS /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52536 - "GET /api/live/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52536 - "GET /api/live/status HTTP/1.1" 200 OK
