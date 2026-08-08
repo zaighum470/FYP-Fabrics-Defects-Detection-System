@@ -79,3 +79,10 @@ secrets.json
 # ─── LFS: tracked separately — DO NOT ignore *.pt here ───────
 #   .gitattributes handles LFS for the model weights.
 #   Keep the .pt files tracked (via LFS), not ignored.
+
+# ─── Dataset: exclude the original archive; extracted data is
+#     committed (via LFS for images, normal git for labels)
+DataSet/*.zip
+DataSet/*.tar
+DataSet/*.tar.gz
+DataSet/*.7z

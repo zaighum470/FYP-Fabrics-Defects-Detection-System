@@ -2,3 +2,9 @@
 #  Git LFS — track large model weights via Git LFS
 # ──────────────────────────────────────────────────────────────
 *.pt filter=lfs diff=lfs merge=lfs -text
+
+# Dataset images go through LFS too
+DataSet/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+DataSet/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+DataSet/**/*.png filter=lfs diff=lfs merge=lfs -text
+DataSet/**/*.bmp filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['hole', 'knot', 'line', 'stain']
+
+roboflow:
+  workspace: zaighum-ua10k
+  project: fabric-defect-detection-lbvbi
+  version: 5
+  license: Public Domain
+  url: https://universe.roboflow.com/zaighum-ua10k/fabric-defect-detection-lbvbi/dataset/5
