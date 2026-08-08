@@ -1,0 +1,81 @@
+# ──────────────────────────────────────────────────────────────
+#  Fabric Defect Detection — .gitignore
+# ──────────────────────────────────────────────────────────────
+
+# ─── OS / editor cruft ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# ─── Node / frontend ─────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+package-lock.json
+frontend/package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Python / backend ────────────────────────────────────────
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+my_env/
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ─── Database (generated at runtime) ─────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+backend/fabric.db
+backend/app/test.jpg
+
+# ─── Uploaded & generated media (runtime artifacts) ──────────
+uploads/
+backend/uploads/
+result_*.png
+result_*.jpg
+result_*.jpeg
+result_*.bmp
+result_*.webp
+test.png
+
+# ─── Runtime logs ────────────────────────────────────────────
+*.log
+backend.log
+frontend.log
+backend/app/__pycache__/
+
+# ─── Secrets & local config ──────────────────────────────────
+.env
+.env.local
+.env.*.local
+secrets.json
+*.pem
+*.key
+
+# ─── LFS: tracked separately — DO NOT ignore *.pt here ───────
+#   .gitattributes handles LFS for the model weights.
+#   Keep the .pt files tracked (via LFS), not ignored.
